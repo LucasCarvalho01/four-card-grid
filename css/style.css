@@ -36,6 +36,16 @@ img {
   margin: 0 12px;
 }
 
+@media (max-width: 751px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: unset;
+    margin: 0 0 2rem;
+    padding: 0 1rem;
+  }
+}
+
 .header {
   grid-column: 1 / -1;
   grid-row: 1 / 2;
@@ -62,6 +72,25 @@ img {
   font-size: .9375rem;
 }
 
+@media (max-width: 751px) {
+  .header {
+    margin: 4rem 0 2rem;
+  }
+
+  .header h2 {
+    font-size: 1.5rem;
+  }
+
+  .header h1 {
+    font-size: 1.5rem;
+  }
+
+  .header p {
+    width: 90%;
+    max-width: 460px;
+  }
+}
+
 .container > div {
   width: 25vw;
   max-width: 360px;
@@ -83,6 +112,16 @@ img {
 
 .container > div img {
   float: right;
+}
+
+@media (max-width: 751px) {
+  .container > div {
+    width: 90%;
+  }
+
+  .container > div p {
+    font-size: .9rem;
+  }
 }
 
 .super {
