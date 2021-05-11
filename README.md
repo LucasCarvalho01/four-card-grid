@@ -8,7 +8,11 @@ This time, the challenge was to build the website according to the UI designs pr
 
 ## Live Site
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/aba887dd-10a9-4db0-b7ec-b86447c5bdb2/deploy-status)](https://app.netlify.com/sites/four-card-grid/deploys)
+
 The link to see the live preview:
+
+[Live Preview](https://four-card-grid.netlify.app)
 
 ## Built With
 
